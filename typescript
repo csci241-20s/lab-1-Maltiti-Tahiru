@@ -1,0 +1,549 @@
+Script started on 2020-04-12 21:20:17-0700
+tahirum@cf420-35:~$ ls][K
+CS102  CSCI145	Documents  mentors  Pictures  Templates   Videos
+cs141  Desktop	Downloads  Music    Public    typescript
+tahirum@cf420-35:~$ https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir CSCI[K[K[K[K[K scci[K[K[K[Kcsci1[K241
+tahirum@cf420-35:~$ ls
+CS102  CSCI145	Desktop    Downloads  Music	Public	   typescript
+cs141  csci241	Documents  mentors    Pictures	Templates  Videos
+tahirum@cf420-35:~$ cd csci241/
+tahirum@cf420-35:~/csci241$ git clone https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+Cloning into 'lab-1-Maltiti-Tahiru'...
+remote: Enumerating objects: 14, done.[K
+remote: Counting objects:   7% (1/14)[Kremote: Counting objects:  14% (2/14)[Kremote: Counting objects:  21% (3/14)[Kremote: Counting objects:  28% (4/14)[Kremote: Counting objects:  35% (5/14)[Kremote: Counting objects:  42% (6/14)[Kremote: Counting objects:  50% (7/14)[Kremote: Counting objects:  57% (8/14)[Kremote: Counting objects:  64% (9/14)[Kremote: Counting objects:  71% (10/14)[Kremote: Counting objects:  78% (11/14)[Kremote: Counting objects:  85% (12/14)[Kremote: Counting objects:  92% (13/14)[Kremote: Counting objects: 100% (14/14)[Kremote: Counting objects: 100% (14/14), done.[K
+remote: Compressing objects:  12% (1/8)[Kremote: Compressing objects:  25% (2/8)[Kremote: Compressing objects:  37% (3/8)[Kremote: Compressing objects:  50% (4/8)[Kremote: Compressing objects:  62% (5/8)[Kremote: Compressing objects:  75% (6/8)[Kremote: Compressing objects:  87% (7/8)[Kremote: Compressing objects: 100% (8/8)[Kremote: Compressing objects: 100% (8/8), done.[K
+remote: Total 14 (delta 2), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:   7% (1/14)   Unpacking objects:  14% (2/14)   Unpacking objects:  21% (3/14)   Unpacking objects:  28% (4/14)   Unpacking objects:  35% (5/14)   Unpacking objects:  42% (6/14)   Unpacking objects:  50% (7/14)   Unpacking objects:  57% (8/14)   Unpacking objects:  64% (9/14)   Unpacking objects:  71% (10/14)   Unpacking objects:  78% (11/14)   Unpacking objects:  85% (12/14)   Unpacking objects:  92% (13/14)   Unpacking objects: 100% (14/14)   Unpacking objects: 100% (14/14), done.
+tahirum@cf420-35:~/csci241$ ls
+lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241$ git config --global user.name Ml[Kaltiti Tahiru
+tahirum@cf420-35:~/csci241$ git cong[Kfig --global user.email tahirum.wwu.e[K[K[K[K[K[K@wwu.edu
+tahirum@cf420-35:~/csci241$ touch .writeup[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241$ touch .[Kwrtieup.txt
+tahirum@cf420-35:~/csci241$ git add writeup.r[Ktxt # run "git helpadd"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241$ ls
+lab-1-Maltiti-Tahiru  wrtieup.txt
+tahirum@cf420-35:~/csci241$ rm -r write[K[K[Ktieup.txt 
+tahirum@cf420-35:~/csci241$ touch writeup.txt
+tahirum@cf420-35:~/csci241$ a[Kgit add writw[Kw[Keup.txt
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241$ rm -r writeup.txt 
+tahirum@cf420-35:~/csci241$ cd lab-1-Maltiti-Tahiru/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  settings.gradle  src
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ touch writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit -m " Added empty writu[Keup"
+[master ae335f1]  Added empty writeup
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+Username for 'https://github.com': Msl  altiti-TA ahiru
+Password for 'https://Maltiti-Tahiru@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 268 bytes | 268.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+   5bab562..ae335f1  master -> master
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano wrir[Kteup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m[?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[3d1[?12l[?25h[?25l[K[?12l[?25h[?25l1[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lL[?12l[?25h[?25la[?12l[?25h[?25ls[41d[K[3;13H[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25luo[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25le[?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25lo[?12l[?25h[?25li[?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lL[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25li[?12l[?25h[?25l=[?12l[?25h[?25l=[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lr[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lA[?12l[?25h[?25l [?12l[?25h[?25lå[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l1[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25li[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[10G[?12l[?25h[?25lL[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lM where you replace First Last with your first and last names[5G[?12l[?25h[?25la where you replace First Last with your first and last names[6G[?12l[?25h[?25ll where you replace First Last with your first and last names[7G[?12l[?25h[?25lt where you replace First Last with your first and last names[8G[?12l[?25h[?25li where you replace First Last with your first and last names[3;9H[?12l[?25h[?25lt where you replace First Last with your first and last names[3;10H[?12l[?25h[?25li where you replace First Last with your first and last names[3;11H[?12l[?25h[?25l  where you replace First Last with your first and last names[3;12H[?12l[?25h[?25lT where you replace First Last with your first and last names[3;13H[?12l[?25h[?25la where you replace First Last with your first and last names[3;14H[?12l[?25h[?25lh where you replace First Last with your first and last names[3;15H[?12l[?25h[?25li where you replace First Last with your first and last names[3;16H[?12l[?25h[?25lr where you replace First Last with your first and last names[3;17H[?12l[?25h[?25lu where you replace First Last with your first and last names[3;18H[?12l[?25h[?25l  where you replace First Last with your first and last names[3;19H[?12l[?25h[?25l [?12l[?25h[?25l[26G[?12l[?25h[?25lyou [?12l[?25h[?25l[3;38H[?12l[?25h[?25l[44G[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lMLast with your first and last names[3;39H[?12l[?25h[?25laLast with your first and last names[3;40H[?12l[?25h[?25llLast with your first and last names[3;41H[?12l[?25h[?25ltLast with your first and last names[3;42H[?12l[?25h[?25liLast with your first and last names[3;43H[?12l[?25h[?25ltLast with your first and last names[3;44H[?12l[?25h[?25liLast with your first and last names[3;45H[?12l[?25h[?25l Last with your first and last names[3;46H[?12l[?25h[?25lL[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25l[1P[?12l[?25h[?25lt[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lt with your first and last names[3;47H[?12l[?25h[?25la with your first and last names[3;48H[?12l[?25h[?25lh with your first and last names[3;49H[?12l[?25h[?25li with your first and last names[3;50H[?12l[?25h[?25lr with your first and last names[3;51H[?12l[?25h[?25lu with your first and last names[3;52H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lT with your first and last names[3;47H[?12l[?25h[?25la with your first and last names[3;48H[?12l[?25h[?25lh with your first and last names[3;49H[?12l[?25h[?25li with your first and last names[3;50H[?12l[?25h[?25lr with your first and last names[3;51H[?12l[?25h[?25lu with your first and last names[3;52H[?12l[?25h[?25l  with your first and last names[3;53H[?12l[?25h[?25l[1P[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25ly[?12l[?25h[?25lo[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lm[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l1) Maltiti Tahiru  where you replac[4d[?12l[?25h[?25l[A[?12l[?25h[?25l[3;12H[?12l[?25h[?25l[3;20H[?12l[?25h[?25l[26G[?12l[?25h[?25lyou [?12l[?25h[?25l[4d[?12l[?25h[?25l[A[?12l[?25h[?25l1) [?12l[?25h[?25l[3;12H[?12l[?25h[?25l[3;20H[?12l[?25h[?25l[26G[?12l[?25h[?25lyou [?12l[?25h[?25l[4d[?12l[?25h[?25l[3;36H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;18H(B[0;7mC(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;25H(B[0;7mM-D(B[m DOS Format[42;49H(B[0;7mM-A(B[m Append[42;73H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[43;49H(B[0;7mM-P(B[m Prepend[43;73H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: writeup.txt                              (B[m[41;32H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[41;41H(B[0;7m[ Wrote 1 line ](B[m[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add -A
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit -m "Added part 1 (names [K) ti o[K[K[Ko writeup"
+[master 56e7cc1] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git [K[K[K[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;41H (B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m1) Maltiti Tahiru[?12l[?25h[?25l[4d[?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[4d2[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25l [?12l[?25h[?25lH[?12l[?25h[?25lo[?12l[?25h[?25lb[?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25lj[?12l[?25h[?25l [?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25ll[?12l[?25h[?25la[41d[K[4;14H[?12l[?25h[?25ly[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25lc[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;18H(B[0;7mC(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;25H(B[0;7mM-D(B[m DOS Format[42;49H(B[0;7mM-A(B[m Append[42;73H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[43;49H(B[0;7mM-P(B[m Prepend[43;73H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: writeup.txt                              (B[m[41;32H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[41;41H(B[0;7m[ Wrote 2 lines ](B[m[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  settings.gradle  src  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ touch username.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano username.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                             username.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m[?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[3dM[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lti[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l [?12l[?25h[?25lT[?12l[?25h[?25la[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25l[4d[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25lr[41d[K[4;6H[?12l[?25h[?25lu[?12l[?25h[?25lm[?12l[?25h[?25l[5d[?12l[?25h[?25lM[?12l[?25h[?25la[?12l[?25h[?25ll[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25li[?12l[?25h[?25l-[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lT[?12l[?25h[?25la[?12l[?25h[?25lh[?12l[?25h[?25li[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[4;8HMaltiti-Tahiru[5d[K[4;8H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[3;15HtahirumMaltiti-Tahiru[4d[K[3;15H[?12l[?25h[?25l tahirumMaltiti-Tahiru[3;16H[?12l[?25h[?25l[1P[?12l[?25h[?25l,tahirumMaltiti-Tahiru[3;16H[?12l[?25h[?25lt[?12l[?25h[?25lah[?12l[?25h[?25li[?12l[?25h[?25lru[?12l[?25h[?25lm[?12l[?25h[?25l,Maltiti-Tahiru[3;24H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;18H(B[0;7mC(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;25H(B[0;7mM-D(B[m DOS Format[42;49H(B[0;7mM-A(B[m Append[42;73H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[43;49H(B[0;7mM-P(B[m Prepend[43;73H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: username.txt                             (B[m[41;33H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[41;41H(B[0;7m[ Wrote 1 line ](B[m[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commi[K[K[K[K[K[K add -A
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git s[Kcommit -m " created a file named userm[Kname [K.tx t"
+[master 7c45611]  created a file named username.txt
+ 2 files changed, 2 insertions(+)
+ create mode 100644 username.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+Username for 'https://github.com': Maltiti-tai   Tahiru
+Password for 'https://Maltiti-Tahiru@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 643 bytes | 160.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+   ae335f1..7c45611  master -> master
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push[Kgit pushcommit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kgit commit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cadd -A[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -m " created a file named username.txtt"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit checkout -b question3
+Switched to a new branch 'question3'
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ l[Kls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano W[Kwriteup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[5d3[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25lu[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l:[?12l[?25h[?25l[41d[K[5;19H[?12l[?25h[?25lL[?12l[?25h[?25lo[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lf[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25lo[?12l[?25h[?25lo[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25l≈[?12l[?25h[?25l [?12l[?25h[?25l≈[?12l[?25h[?25l [?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;18H(B[0;7mC(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;25H(B[0;7mM-D(B[m DOS Format[42;49H(B[0;7mM-A(B[m Append[42;73H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[43;49H(B[0;7mM-P(B[m Prepend[43;73H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: writeup.txt                              (B[m[41;32H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[41;41H(B[0;7m[ Wrote 3 lines ](B[m[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ add [K[K[K[Kgit ass[K[K[Kadd -
+fatal: pathspec '-' did not match any files
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ agit add -A
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit [K-m [K[K[K -m "finished question 3"
+[question3 14ce288] finished question 3
+ 1 file changed, 1 insertion(+)
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git ci[Kommit -a -m " [Kfinished w[Kquestion 3"
+On branch question3
+nothing to commit, working tree clean
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 3 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[5d3) Favorite song: Life is good by Drake[3d[?12l[?25h[?25l[41d[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt ls[Kgit commit -a -m "finished question 3"
+On branch question3
+nothing to commit, working tree clean
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git log
+[?1h=[33mcommit 14ce2882fb11de9ca1477513df48856fd791f367[m[33m ([m[1;36mHEAD -> [m[1;32mquestion3[m[33m)[m[m
+Author: Maltiti <tahirum@wwu.edu>[m
+Date:   Sun Apr 12 22:12:30 2020 -0700[m
+[m
+    finished question 3[m
+[m
+[33mcommit 7c4561153510b259a2d27e22a1e300d4fcca3f21[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m[m
+Author: Maltiti <tahirum@wwu.edu>[m
+Date:   Sun Apr 12 21:40:30 2020 -0700[m
+[m
+     created a file named username.txt[m
+[m
+[33mcommit 56e7cc113b0f477d51365b5f9ff5d8fb9ca9652a[m[m
+Author: Maltiti <tahirum@wwu.edu>[m
+Date:   Sun Apr 12 21:36:18 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit ae335f130e21ecf1610f427ec441f028066fdf02[m[m
+Author: Maltiti <tahirum@wwu.edu>[m
+Date:   Sun Apr 12 21:28:36 2020 -0700[m
+[m
+     Added empty writeup[m
+[m
+[33mcommit 5bab5625ec2ee0900fcff80ae921a0234ef1f9da[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Wed Apr 8 23:03:14 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 47b16956ef1d74333436634296fbe7cfbe2556ce[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Wed Apr 8 23:03:14 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit 81d2048f1a202216c72adedb7d12b858bee64b6b[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Wed Apr 8 23:03:12 2020 -0700[m
+[m
+    Initial commit[m
+[K[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gitchec[K[K[K[K checkout ms[K\aste[K[K[K[K[K[Kmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[A[?12l[?25h[?25l[41d[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git [13@nano writeup.tx[C[Cgit [K[13@nano writeup.tx[C[Cgit checkout master[K[K[K[K[K[Kquestion3
+Switched to branch 'question3'
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git checkout question3[5Pnano writeup.txt git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git mergw[Ke question3
+Updating 7c45611..14ce288
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ g[Knano[K[K[K[Knano writeup.txt 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 3 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[5d3) Favorite song: Life is good by Drake[3d[?12l[?25h[?25l[41d[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git branch -d question3
+Deleted branch question3 (was 14ce288).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd src/main/java/lab1/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ls
+Hello.java
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ gradle buils[Kd
+
+Welcome to Gradle 6.1!
+
+Here are the highlights of this release:
+ - Dependency cache is relocatable
+ - Configurable compilation order between Groovy, Java & Scala
+ - New sample projects in Gradle's documentation
+
+For more details see https://docs.gradle.org/6.1/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+
+[2A[1B[1m> Starting Daemon[m[17D[1B[1A[1m> Starting Daemon > Connecting to Daemon[m[40D[1B[1A> IDLE[0K[6D[1B^[[21~[2A[1m<[0;1m-------------> 0% INITIALIZING [20ms][m[38D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [120ms][m[39D[1B[1m> Evaluating settings[m[21D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [220ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [320ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [420ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [520ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [620ms][m[39D[1B[1m> Evaluating settings > Compiling /home/tahirum/csci241/lab-1-Maltiti-Tahiru/settings.gradle int[m[96D[1B[2A[1m<[0;1m-------------> 0% INITIALIZING [720ms][m[39D[2B[2A[1m<[0;1m-------------> 0% INITIALIZING [820ms][m[39D[1B[1m> Evaluating settings[m[0K[21D[1B[2A[0K
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1' is not part of the build defined by settings file '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 2s
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ~~~grable [K[K[K[Kdle run
+~~~gradle: command not found
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ nano h[KHello.java 
+[?1049h[22;0;0t[1;43r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[41;41H(B[0;7m[ Reading File ](B[m[41;47H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              Hello.java                                         [1;96H(B[m[42d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[43d(B[0;7m^X(B[m Exit[43;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println([31m"Hello, world!"[39m(B[m);[8;3H}[9d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l    [?12l[?25h[?25l[12G[?12l[?25h[?25lout.[?12l[?25h[?25l[7;25H[?12l[?25h[?25l[32G[?12l[?25h[?25l[10d[?12l[?25h[?25l[A}[?12l[?25h[?25l[?12l[?25h[?25l[A  }[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l  [?12l[?25h[?25l[12G[?12l[?25h[?25lout.[?12l[?25h[?25l[7;25H[?12l[?25h[?25l[32G[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[41d[K[7;38H[?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[7;37H[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[C[?12l[?25h[?25l[7;24H"Hello, w);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25ll);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25la);[?12l[?25h[?25lr);[?12l[?25h[?25lg);[?12l[?25h[?25ls);[?12l[?25h[?25l{);[?12l[?25h[?25l);[K[?12l[?25h[?25l[);[?12l[?25h[?25l]);[?12l[?25h[?25l[?12l[?25h[?25l[42;17H[16X[42;33H(B[0;7m^X(B[m Execute Command         [66G(B[0;7mT(B[m To Files[K[43;2H(B[0;7mC(B[m Cancel[17G[16X[43;33H(B[0;7mM-F(B[m New Buffer[K[41d(B[0;7mFile to insert [from ./]:                                                                        [41;1H(B[m[41;27H[?12l[?25h[?25l[41;27H[?12l[?25h[?25l[41;42H[1K (B[0;7m[ Cancelled ](B[m[K[42;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text[66G(B[0;7mJ(B[m Justify      (B[0;7m^C(B[m Cur Pos[43;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[7;29H[?12l[?25h[?25l[41;22H(B[0;7m[ line 5/8 (62%), col 29/32 (90%), char 107/117 (91%) ](B[m[7;29H[?12l[?25h[?25l[42;17H[16X[42;33H(B[0;7m^X(B[m Execute Command         [66G(B[0;7mT(B[m To Files[K[43;2H(B[0;7mC(B[m Cancel[17G[16X[43;33H(B[0;7mM-F(B[m New Buffer[K[41d(B[0;7mFile to insert [from ./]:                                                                        [41;1H(B[m[41;27H[?12l[?25h[?25l[41;42H[1K (B[0;7m[ Cancelled ](B[m[K[42;17H(B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text[66G(B[0;7mJ(B[m Justify      (B[0;7m^C(B[m Cur Pos[43;2H(B[0;7mX(B[m Exit  [17G(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace      (B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[41d[7;29H[?12l[?25h[?25l0]);[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l"args[0]);[7;25H[?12l[?25h[?25lHargs[0]);[7;26H[?12l[?25h[?25leargs[0]);[7;27H[?12l[?25h[?25llargs[0]);[7;28H[?12l[?25h[?25lllargs[0]);[7;29H[?12l[?25h[?25loargs[0]);[7;30H[?12l[?25h[?25l[24G[31m"Hello"[39m(B[margs[0]);[7;31H[?12l[?25h[?25l[24G"Hello[1P[?12l[?25h[?25l,args[0]);[7;31H[?12l[?25h[?25l args[0]);[7;32H[?12l[?25h[?25l[7;24H[31m"Hello, "[39m(B[margs[0]);[7;33H[?12l[?25h[?25l args[0]);[7;34H[?12l[?25h[?25l+args[0]);[7;35H[?12l[?25h[?25l args[0]);[7;36H[?12l[?25h[?25l[41d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [42;1H Y(B[m Yes[K[43d(B[0;7m N(B[m No  [43;18H(B[0;7mC(B[m Cancel[K[41;63H[?12l[?25h[?25l[42d(B[0;7m^G(B[m Get Help[42;25H(B[0;7mM-D(B[m DOS Format[42;49H(B[0;7mM-A(B[m Append[42;73H(B[0;7mM-B(B[m Backup File[43d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[43;49H(B[0;7mM-P(B[m Prepend[43;73H(B[0;7m^T(B[m To Files[41d(B[0;7mFile Name to Write: Hello.java                               (B[m[41;31H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[41;41H(B[0;7m[ Wrote 7 lines ](B[m[J[43;97H[?12l[?25h[43;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ gradle run---[K[K[K --args="you"
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1' is not part of the build defined by settings file '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 381ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ [Ktahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ls
+gradle	Hello.java
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ cd gradle
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1/gradle$ ls
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1/gradle$ cd ../
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ls
+gradle	Hello.java
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ grab[Kdle build
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Project directory '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1' is not part of the build defined by settings file '/home/tahirum/csci241/lab-1-Maltiti-Tahiru/settings.gradle'. If this is an unrelated build, it must have its own settings file.
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 377ms
+
+[1A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ls
+gradle	Hello.java
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ rm -r gradle/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ ls
+Hello.java
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src/main/java/lab1$ cd.//./[K[K[K[K[K ../../../
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru/src$ cd ../
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gradle build
+
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [67ms][m[37D[1B[1m> Loading projects[m[0K[18D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [167ms][m[38D[1B[1m> root project > Compiling /home/tahirum/csci241/lab-1-Maltiti-Tahiru/build.gradle into local co[m[96D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [267ms][m[38D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;1m-------------> 0% CONFIGURING [367ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [467ms][m[38D[2B[2A[1m<[0;1m-------------> 0% CONFIGURING [567ms][m[38D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [667ms][m[40D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [767ms][m[40D[2B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [867ms][m[40D[2B[2A[1m<[0;1m-------------> 0% EXECUTING [967ms][m[0K[36D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [1s][m[0K[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath > guava-26.0-jre.pom[m[79D[1B[1A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B
+
+
+[5A[1m<[0;1m-------------> 0% EXECUTING [2s][m[33D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > error_prone_annotations-2.1.3.pom[m[94D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > animal-sniffer-annotations-1.14.pom[m[96D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > checker-qual-2.5.2.pom[m[83D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath > oss-parent-7.pom > 2 KB/4 KB downlo[m[96D[1B[4A[1m> :compileJava > Resolve dependencies of :compileClasspath[m[0K[58D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B> IDLE[0K[6D[1B[4A[1m> :compileJava > Resolve files of :compileClasspath[m[0K[51D[4B[4A[1m> :compileJava[m[0K[14D[4B[5A[1m<[0;1m-------------> 0% EXECUTING [3s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [4s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [5s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [6s][m[33D[5B[5A[1m<[0;1m-------------> 0% EXECUTING [7s][m[33D[5B[5A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [7s][m[34D[1B[1m> :startScripts[m[15D[4B[5A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [7s][m[34D[1B[1m> :distTar[m[0K[10D[4B[5A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [7s][m[34D[1B[1m> :distZip[m[10D[4B[5A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 8s
+5 actionable tasks: 5 executed
+[2B[0K
+[0K
+[0K
+[5A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B> IDLE[6D[1B[5A[2K[1B[2K[1B[2K[1B[2K[1B[2K[4A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gradle run
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [62ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m[0K
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-11-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 482ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano Hello.java
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;43H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                              Hello.java                                         [1;96H(B[m[37d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[38d(B[0;7m^X(B[m Exit[38;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[36d[3d[39;49m(B[m[?12l[?25h[?25l[36d[J[38;97H[?12l[?25h[38;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd
+tahirum@cf420-35:~$ pw[K[Kls
+CS102  CSCI145	Desktop    Downloads  Music	Public	   typescript
+cs141  csci241	Documents  mentors    Pictures	Templates  Videos
+tahirum@cf420-35:~$ cd CSD[KCI2[K[K[K[K[K[K csci241/
+tahirum@cf420-35:~/csci241$ git clone [K[Ke https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+fatal: destination path 'lab-1-Maltiti-Tahiru' already exists and is not an empty directory.
+tahirum@cf420-35:~/csci241$ rm -r lab-1-Maltiti-Tahiru/
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/40/0a0fd80d973a9444280bf53460aabedba77471'? y
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/0e/e3385671689a92912a9cb3da3398648a5c95eb'? e yes
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/eb/3eac4b4be6ef19db51cc37b106d4fec5164412'? ^C
+tahirum@cf420-35:~/csci241$ ls
+lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241$ cd lab-1-Maltiti-Tahiru/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git meg[Krge master
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd .//
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd ../
+tahirum@cf420-35:~/csci241$ gi[K[Krm -r lab-1-Maltiti-Tahiru/
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/eb/3eac4b4be6ef19db51cc37b106d4fec5164412'? ^C
+tahirum@cf420-35:~/csci241$ cd lab-1-Maltiti-Tahiru/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git diff
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git diff writeup.txt 
+Not a git repository
+To compare two paths outside a working tree:
+usage: git diff [--no-index] <path> <path>
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;41H(B[0;7m[ Reading File ](B[m[36;47H(B[0;7m 3 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                              writeup.txt                                        [1;96H(B[m[37d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[38d(B[0;7m^X(B[m Exit[38;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[36d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[5d3) Favorite song: Life is good by Drake[3d[?12l[?25h[?25l[36d[J[38;97H[?12l[?25h[38;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ la
+la: command not found
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ rm -r build
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano dr[K[Ksrc/main/java/la[K[Klab1/Hello.java 
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;41H(B[0;7m[ Reading File ](B[m[36;47H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                     src/main/java/lab1/Hello.java                               [1;96H(B[m[37d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[38d(B[0;7m^X(B[m Exit[38;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line[36d[3d[39;49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println([31m"Hello, "[39m(B[m + args[0]);[8;3H}[9d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l    [?12l[?25h[?25l[12G[?12l[?25h[?25lout.[?12l[?25h[?25l[7;25H[?12l[?25h[?25l[7;36H[?12l[?25h[?25l[41G[?12l[?25h[?25l0[?12l[?25h[?25l][?12l[?25h[?25l[1;88H(B[0;7mModified(B[m[7;42H);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l);[K[?12l[?25h[?25l[7;24H"Hello, );[K[?12l[?25h[?25l);[K[?12l[?25h[?25l );[?12l[?25h[?25lw);[36d[K[7;33H[?12l[?25h[?25lo);[?12l[?25h[?25lr);[?12l[?25h[?25ll);[?12l[?25h[?25ld);[?12l[?25h[?25l[7;24H[31m"Hello, world"[39m(B[m);[?12l[?25h[?25l[36d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                                    [37;1H Y(B[m Yes[K[38d(B[0;7m N(B[m No  [38;18H(B[0;7mC(B[m Cancel[K[36;63H[?12l[?25h[?25l[37d(B[0;7m^G(B[m Get Help[37;25H(B[0;7mM-D(B[m DOS Format[37;49H(B[0;7mM-A(B[m Append[37;73H(B[0;7mM-B(B[m Backup File[38d(B[0;7m^C(B[m Cancel[17G        (B[0;7mM-M(B[m Mac Format[38;49H(B[0;7mM-P(B[m Prepend[38;73H(B[0;7m^T(B[m To Files[36d(B[0;7mFile Name to Write: src/main/java/lab1/Hello.java            (B[m[36;50H[?12l[?25h[?25l[K[1;96H[1;88H(B[0;7m        (B[m[36;41H(B[0;7m[ Wrote 7 lines ](B[m[J[38;97H[?12l[?25h[38;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit[K[K[K[K[K[Kadd -A
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add -A
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ pwd
+/home/tahirum/csci241/lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ lspwdgit add -A
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit -m "finid[Kshed merge"
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd 
+tahirum@cf420-35:~$ c[Kls
+CS102  CSCI145	Desktop    Downloads  Music	Public	   typescript
+cs141  csci241	Documents  mentors    Pictures	Templates  Videos
+tahirum@cf420-35:~$ cd scsi[K[K[K[Kcsci [K241/
+tahirum@cf420-35:~/csci241$ rm lab-1-Maltiti-Tahiru/
+rm: cannot remove 'lab-1-Maltiti-Tahiru/': Is a directory
+tahirum@cf420-35:~/csci241$ lab -r lab-1-Maltiti-Tahiru/
+
+Command 'lab' not found, did you mean:
+
+  command 'fab' from deb fabric
+  command 'laby' from deb laby
+  command 'ab' from deb apache2-utils
+  command 'dab' from deb bsdgames
+  command 'lcab' from deb lcab
+  command 'lb' from deb live-build
+  command 'lb' from deb open-infrastructure-system-build
+
+Try: apt install <deb name>
+
+tahirum@cf420-35:~/csci241$ rm -r lab-1-Maltiti-Tahiru/
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/eb/3eac4b4be6ef19db51cc37b106d4fec5164412'? Bah   
+rm: cannot remove 'lab-1-Maltiti-Tahiru/.git/objects/eb': Directory not empty
+rm: remove write-protected regular file 'lab-1-Maltiti-Tahiru/.git/objects/16/4e84c033bde5a177c933e0d086bfc24a5159db'? rm-  -r lab	      ^C
+tahirum@cf420-35:~/csci241$ ls
+lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241$ cd dlab
+bash: cd: dlab: No such file or directory
+tahirum@cf420-35:~/csci241$ cd lab-1-Maltiti-Tahiru/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git ps[Kush
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd ../
+tahirum@cf420-35:~/csci241$ git clone https://github.com/csci241-20s/lab-1-Maltiti-Tahirru.git
+fatal: destination path 'lab-1-Maltiti-Tahiru' already exists and is not an empty directory.
+tahirum@cf420-35:~/csci241$ git clone https://github.com/csci241-20s/lab-1-Maltiti-Tahirru.git
+fatal: destination path 'lab-1-Maltiti-Tahiru' already exists and is not an empty directory.
+tahirum@cf420-35:~/csci241$ ls
+lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241$ mv lab-1-Maltiti-Tahiru/ lab1
+tahirum@cf420-35:~/csci241$ ls
+lab1
+tahirum@cf420-35:~/csci241$ git clone https://github.com/csci241-20s/lab-1-Maltiti-Tahirru.git
+Cloning into 'lab-1-Maltiti-Tahiru'...
+remote: Enumerating objects: 23, done.[K
+remote: Counting objects:   4% (1/23)[Kremote: Counting objects:   8% (2/23)[Kremote: Counting objects:  13% (3/23)[Kremote: Counting objects:  17% (4/23)[Kremote: Counting objects:  21% (5/23)[Kremote: Counting objects:  26% (6/23)[Kremote: Counting objects:  30% (7/23)[Kremote: Counting objects:  34% (8/23)[Kremote: Counting objects:  39% (9/23)[Kremote: Counting objects:  43% (10/23)[Kremote: Counting objects:  47% (11/23)[Kremote: Counting objects:  52% (12/23)[Kremote: Counting objects:  56% (13/23)[Kremote: Counting objects:  60% (14/23)[Kremote: Counting objects:  65% (15/23)[Kremote: Counting objects:  69% (16/23)[Kremote: Counting objects:  73% (17/23)[Kremote: Counting objects:  78% (18/23)[Kremote: Counting objects:  82% (19/23)[Kremote: Counting objects:  86% (20/23)[Kremote: Counting objects:  91% (21/23)[Kremote: Counting objects:  95% (22/23)[Kremote: Counting objects: 100% (23/23)[Kremote: Counting objects: 100% (23/23), done.[K
+remote: Compressing objects:   8% (1/12)[Kremote: Compressing objects:  16% (2/12)[Kremote: Compressing objects:  25% (3/12)[Kremote: Compressing objects:  33% (4/12)[Kremote: Compressing objects:  41% (5/12)[Kremote: Compressing objects:  50% (6/12)[Kremote: Compressing objects:  58% (7/12)[Kremote: Compressing objects:  66% (8/12)[Kremote: Compressing objects:  75% (9/12)[Kremote: Compressing objects:  83% (10/12)[Kremote: Compressing objects:  91% (11/12)[Kremote: Compressing objects: 100% (12/12)[Kremote: Compressing objects: 100% (12/12), done.[K
+remote: Total 23 (delta 5), reused 9 (delta 2), pack-reused 0[K
+Unpacking objects:   4% (1/23)   Unpacking objects:   8% (2/23)   Unpacking objects:  13% (3/23)   Unpacking objects:  17% (4/23)   Unpacking objects:  21% (5/23)   Unpacking objects:  26% (6/23)   Unpacking objects:  30% (7/23)   Unpacking objects:  34% (8/23)   Unpacking objects:  39% (9/23)   Unpacking objects:  43% (10/23)   Unpacking objects:  47% (11/23)   Unpacking objects:  52% (12/23)   Unpacking objects:  56% (13/23)   Unpacking objects:  60% (14/23)   Unpacking objects:  65% (15/23)   Unpacking objects:  69% (16/23)   Unpacking objects:  73% (17/23)   Unpacking objects:  78% (18/23)   Unpacking objects:  82% (19/23)   Unpacking objects:  86% (20/23)   Unpacking objects:  91% (21/23)   Unpacking objects:  95% (22/23)   Unpacking objects: 100% (23/23)   Unpacking objects: 100% (23/23), done.
+tahirum@cf420-35:~/csci241$ cd lab-1-Maltiti-Tahiru/
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano username.txt 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;36H (B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 2.9.3                        username.txt                                   [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[39;49m(B[mMaltiti Tahiru,tahirum,Maltiti-Tahiru[?12l[?25h[?25l[38d[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;42H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                         writeup.txt                                   [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[A[?12l[?25h[?25l[38d[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git checkout -b wue[K[K[K[Kq[K question3
+Switched to a new branch 'question3'
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano wer[K[Kriteup.txt 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;42H(B[0;7m 2 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                         writeup.txt                                   [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[A[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[1;78H(B[0;7mModified(B[m[5d3[?12l[?25h[?25l)[?12l[?25h[?25l [?12l[?25h[?25lF[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25lg[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lL[?12l[?25h[?25li[?12l[?25h[?25lf[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25lo[38d[K[5;25H[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lg[?12l[?25h[?25lo[?12l[?25h[?25lo[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lb[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lD[?12l[?25h[?25lr[?12l[?25h[?25la[?12l[?25h[?25lk[?12l[?25h[?25le[?12l[?25h[?25l[38d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                          [39;1H Y(B[m Yes[K[40d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[38;63H[?12l[?25h[?25l[?12l[?25h[?25l[39d(B[0;7m^G(B[m Get Help[39;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[39;64H(B[0;7mM-B(B[m Backup File[40d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[40;64H(B[0;7m^T(B[m To Files[38d(B[0;7mFile Name to Write: writeup.txt                              (B[m[38;32H[?12l[?25h[?25l[K[1;86H[1;78H(B[0;7m        (B[m[38;36H(B[0;7m[ Wrote 3 lines ](B[m[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add -a[KA
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add [K[K[K[Kcommit -a -m "finished question 3.  (question3 branch)"
+[question3 b9f7bdb] finished question 3. (question3 branch)
+ 1 file changed, 1 insertion(+)
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+fatal: The current branch question3 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin question3
+
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ checkout master
+checkout: command not found
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git checkout a[Kmaster
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git merge quesi[Ktion3
+Updating 7c45611..b9f7bdb
+Fast-forward
+ writeup.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ g[Knano writeup.txt 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;42H(B[0;7m 3 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                         writeup.txt                                   [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[5d3) Favorite song: Life is good by Drake[3d[?12l[?25h[?25l[38d[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$  git[K[K[K[Kgit c[Kbranch -d question [K3
+Deleted branch question3 (was b9f7bdb).
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano writeup.txt 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;42H(B[0;7m 3 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                         writeup.txt                                   [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[39;49m(B[m1) Maltiti Tahiru[4d2) Hobby: playing soccer[5d3) Favorite song: Life is good by Drake[3d[?12l[?25h[?25l[38d[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add -A
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit -m "successfully compll[Ketes  mee[Krge"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C me[1Prge"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd merge"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ merge"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+Username for 'https://github.com': Ml altiti-Tahiru
+Password for 'https://Maltiti-Tahiru@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 346 bytes | 346.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+   7c45611..b9f7bdb  master -> master
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ pwd
+/home/tahirum/csci241/lab-1-Maltiti-Tahiru
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ cd[K[Kls
+build.gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gradle b[Kbuild
+
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;1m-------------> 0% EXECUTING [62ms][m[35D[1B[1m> :compileJava > Resolve dependencies of :compileClasspath[m[58D[1B[2A[1m<[0;1m-------------> 7% EXECUTING [162ms][m[36D[1B[1m> :processResources[m[0K[19D[1B[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [262ms][m[37D[1B[1m> :distTar[m[0K[10D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [362ms][m[37D[1B[1m> :distZip[m[10D[1B[2A[1m<[0;32;1m============[0;39;1m-> 92% EXECUTING [462ms][m[37D[1B> IDLE[0K[6D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 856ms
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gradle run
+
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [65ms][m[36D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, world!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 434ms
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ nano src/main/java/lab1/HE[Kello.java 
+[?1049h[22;0;0t[1;40r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[49m(B[m[H[2J[38;36H(B[0;7m[ Reading File ](B[m[38;42H(B[0;7m 7 lines ](B[m[H(B[0;7m  GNU nano 2.9.3                src/main/java/lab1/Hello.java                          [1;86H(B[m[39d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[40d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Uncut Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[38d[3d[49m[36mpackage[39m(B[m lab1;[5d[36mpublic[39m(B[m [36mclass[39m(B[m Hello {[6;3H[36mpublic[39m(B[m [36mstatic[39m(B[m [32mvoid[39m(B[m main(String[] args) {[7;5HSystem.out.println([31m"Hello, world!"[39m(B[m);[8;3H}[9d}[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lS[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25lm[?12l[?25h[?25l.[?12l[?25h[?25lo[?12l[?25h[?25lut.[?12l[?25h[?25l[7;25H[?12l[?25h[?25l[32G[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[1;78H(B[0;7mModified[38d(B[m[K[1;86H[7;37H[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m"[39m(B[m);[K[?12l[?25h[?25l[31m "[39m(B[m);[?12l[?25h[?25l[C[?12l[?25h[?25l+);[?12l[?25h[?25l );[?12l[?25h[?25la);[?12l[?25h[?25lr);[?12l[?25h[?25lg);[?12l[?25h[?25ls);[?12l[?25h[?25l[);[?12l[?25h[?25l0);[?12l[?25h[?25l]);[?12l[?25h[?25l[38d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                          [39;1H Y(B[m Yes[K[40d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[38;63H[?12l[?25h[?25l[39d(B[0;7m^G(B[m Get Help[39;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[39;64H(B[0;7mM-B(B[m Backup File[40d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[40;64H(B[0;7m^T(B[m To Files[38d(B[0;7mFile Name to Write: src/main/java/lab1/Hello.java            (B[m[38;50H[?12l[?25h[?25l[K[1;86H[1;78H(B[0;7m        (B[m[38;36H(B[0;7m[ Wrote 7 lines ](B[m[J[40;87H[?12l[?25h[40;1H[?1049l[23;0;0t[?1l>tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ ls
+build  build.gradle  gradle  settings.gradle  src  username.txt  writeup.txt
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ gradle run --args="241"
+
+
+[2A[1m<[0;1m-------------> 0% EXECUTING [63ms][m[35D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [163ms][m[37D[1B[1m> :run[m[0K[6D[1B[2A[0K
+[1m> Task :run[m
+Hello, 241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 578ms
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[2K[1B[2K[1A[0m[?12l[?25htahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git add -A
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git commit -m "Hello now prints comman d line arg"
+[master 03fbd9c] Hello now prints command line arg
+ 23 files changed, 288 insertions(+), 1 deletion(-)
+ create mode 100644 .gradle/6.1/executionHistory/executionHistory.bin
+ create mode 100644 .gradle/6.1/executionHistory/executionHistory.lock
+ create mode 100644 .gradle/6.1/fileChanges/last-build.bin
+ create mode 100644 .gradle/6.1/fileContent/fileContent.lock
+ create mode 100644 .gradle/6.1/fileHashes/fileHashes.bin
+ create mode 100644 .gradle/6.1/fileHashes/fileHashes.lock
+ create mode 100644 .gradle/6.1/gc.properties
+ create mode 100644 .gradle/6.1/javaCompile/classAnalysis.bin
+ create mode 100644 .gradle/6.1/javaCompile/javaCompile.lock
+ create mode 100644 .gradle/6.1/javaCompile/taskHistory.bin
+ create mode 100644 .gradle/buildOutputCleanup/buildOutputCleanup.lock
+ create mode 100644 .gradle/buildOutputCleanup/cache.properties
+ create mode 100644 .gradle/buildOutputCleanup/outputFiles.bin
+ create mode 100644 .gradle/checksums/checksums.lock
+ create mode 100644 .gradle/vcs-1/gc.properties
+ create mode 100644 build/classes/java/main/lab1/Hello.class
+ create mode 100644 build/distributions/lab1.tar
+ create mode 100644 build/distributions/lab1.zip
+ create mode 100644 build/libs/lab1.jar
+ create mode 100755 build/scripts/lab1
+ create mode 100644 build/scripts/lab1.bat
+ create mode 100644 build/tmp/jar/MANIFEST.MF
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ git push
+Username for 'https://github.com': Ml altiti  -Tahiru
+Password for 'https://Maltiti-Tahiru@github.com': 
+Counting objects: 47, done.
+Delta compression using up to 8 threads.
+Compressing objects:   4% (1/23)   Compressing objects:   8% (2/23)   Compressing objects:  13% (3/23)   Compressing objects:  17% (4/23)   Compressing objects:  21% (5/23)   Compressing objects:  26% (6/23)   Compressing objects:  30% (7/23)   Compressing objects:  34% (8/23)   Compressing objects:  39% (9/23)   Compressing objects:  43% (10/23)   Compressing objects:  47% (11/23)   Compressing objects:  52% (12/23)   Compressing objects:  56% (13/23)   Compressing objects:  60% (14/23)   Compressing objects:  65% (15/23)   Compressing objects:  69% (16/23)   Compressing objects:  73% (17/23)   Compressing objects:  78% (18/23)   Compressing objects:  82% (19/23)   Compressing objects:  86% (20/23)   Compressing objects:  91% (21/23)   Compressing objects:  95% (22/23)   Compressing objects: 100% (23/23)   Compressing objects: 100% (23/23), done.
+Writing objects:   2% (1/47)   Writing objects:   4% (2/47)   Writing objects:   6% (3/47)   Writing objects:   8% (4/47)   Writing objects:  10% (5/47)   Writing objects:  12% (6/47)   Writing objects:  14% (7/47)   Writing objects:  17% (8/47)   Writing objects:  19% (9/47)   Writing objects:  21% (10/47)   Writing objects:  23% (11/47)   Writing objects:  25% (12/47)   Writing objects:  27% (13/47)   Writing objects:  29% (14/47)   Writing objects:  31% (15/47)   Writing objects:  36% (17/47)   Writing objects:  38% (18/47)   Writing objects:  40% (19/47)   Writing objects:  42% (20/47)   Writing objects:  44% (21/47)   Writing objects:  46% (22/47)   Writing objects:  48% (23/47)   Writing objects:  51% (24/47)   Writing objects:  53% (25/47)   Writing objects:  55% (26/47)   Writing objects:  57% (27/47)   Writing objects:  59% (28/47)   Writing objects:  61% (29/47)   Writing objects:  63% (30/47)   Writing objects:  65% (31/47)   Writing objects:  68% (32/47)   Writing objects:  70% (33/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  72% (34/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  74% (35/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  76% (36/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  78% (37/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  80% (38/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  82% (39/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  85% (40/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  87% (41/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  89% (42/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  91% (43/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  93% (44/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  95% (45/47), 2.16 MiB | 4.27 MiB/s   Writing objects:  97% (46/47), 2.16 MiB | 4.27 MiB/s   Writing objects: 100% (47/47), 2.16 MiB | 4.27 MiB/s   Writing objects: 100% (47/47), 5.00 MiB | 6.14 MiB/s, done.
+Total 47 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-Maltiti-Tahiru.git
+   b9f7bdb..03fbd9c  master -> master
+tahirum@cf420-35:~/csci241/lab-1-Maltiti-Tahiru$ exit
+exit
+
+Script done on 2020-04-12 23:02:23-0700
